@@ -1,0 +1,41 @@
+// Vitest Snapshot v1
+
+exports[`check component  1`] = `
+"<!-- Search Box -->
+<!-- TODO : Add a loader in the right side to show progress -->
+<input type=\\"search\\" autocomplete=\\"false\\" placeholder=\\"Search Books\\" autofocus=\\"\\">
+<!-- TODO : Prompt & Message Can be made into a component, if they become complex and have a style of their own.  -->
+<!-- TODO : Can add some error handling here for timeouts and bad responses -->
+<!-- Prompt -->
+<div class=\\"prompt\\"> Type atleast 2 characters to begin searching </div>"
+`;
+
+exports[`check component default state before interaction 1`] = `
+"<!-- Search Box -->
+<!-- TODO : Add a loader in the right side to show progress -->
+<input type=\\"search\\" autocomplete=\\"false\\" placeholder=\\"Search Books\\" autofocus=\\"\\">
+<!-- TODO : Prompt & Message Can be made into a component, if they become complex and have a style of their own.  -->
+<!-- TODO : Can add some error handling here for timeouts and bad responses -->
+<!-- Prompt -->
+<div class=\\"prompt\\"> Type atleast 2 characters to begin searching </div>"
+`;
+
+exports[`check input template 1`] = `
+"<!-- Search Box -->
+<!-- TODO : Add a loader in the right side to show progress -->
+<input type=\\"search\\" autocomplete=\\"false\\" placeholder=\\"Search Books\\" autofocus=\\"\\">
+<!-- TODO : Prompt & Message Can be made into a component, if they become complex and have a style of their own.  -->
+<!-- TODO : Can add some error handling here for timeouts and bad responses -->
+<!-- Prompt -->
+<div class=\\"prompt\\"> Type atleast 2 characters to begin searching </div>"
+`;
+
+exports[`mount component & check input template 1`] = `
+"<!-- Search Box -->
+<!-- TODO : Add a loader in the right side to show progress -->
+<input type=\\"search\\" autocomplete=\\"false\\" placeholder=\\"Search Books\\" autofocus=\\"\\">
+<!-- TODO : Prompt & Message Can be made into a component, if they become complex and have a style of their own.  -->
+<!-- TODO : Can add some error handling here for timeouts and bad responses -->
+<!-- Prompt -->
+<div class=\\"prompt\\"> Type atleast 2 characters to begin searching </div>"
+`;
