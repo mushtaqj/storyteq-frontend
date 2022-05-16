@@ -1,6 +1,8 @@
-# vue-autocomplete-runthru
+# Storyteq Code Challenge
 
 This template should help get you started developing with Vue 3 in Vite.
+
+[Stackblitz](https://stackblitz.com/edit/storyteq-backend-challenge)
 
 ## Customize configuration
 
@@ -106,3 +108,31 @@ __A:__ Not at the moment
    __A:__ Emit a search, injection a store would tightly couple the component to a store
 7. What if me made the store handle both types of data as cities and books and then send in a classifier to call the appropriate action ?
 __A:__ Good idea so the store would have `{books, cities}` and a common action to search with a `search(key, classifier)` and let the store handle the complex logic and just have single emit handler in the parent component. But the store could get out of control pretty quickly, and our unit tests will spiral out of control. So let's stick to two stores for two different data types, the worst case is merging them together, but cost is low compared to merging and breaking things later.
+
+### Checklist √
+
+#### Autocomplete challenge
+
+- [x] Build a Vue.js application that lets users search for a cities and books in a provided list.
+- [x] Capture key presses from a text input and use the current value of the input to match items in the list (shown below).
+- [x] The application should output the results under the input field as soon as you type at least 3 characters. √
+- [x]  If you type less than 3 characters in the text field, it should not output any results. (It can show a prompt to type at least 3 characters)
+- [x] If there are no results for the search, you should let the user know.
+- [x] When the page loads the search field should be selected automatically, so you can start typing (similar to when you go to <https://www.google.com/>)
+- [x] Use some type of data store to store the results that your components will consume.
+- You can use any approach for getting the store state into your components. The __important part is that you use one or more stores to store your datasets and query results.__
+- [x] There should be two autocompletes on the final page, one for the `cities` and one for `books`. The `books` autocomplete should show primarily the book title and secondarily the author for every matched result.
+- [x] Include at least three unit tests. You can select the units of code to test based on what you find most important. You are free to use any testing framework of choice.
+- [x] For the `cities` autocomplete, search through this list for approximate matches. For example, if the user enters `san`, it should match `san`, `santiago`, `san francisco`, `santa rosa`, etc. If they enter `sant`, it should only match `santiago` and `santa rosa`.
+- [x] For the `books` autocomplete, search through the list of `book.title`s. For example, if the user enters `don` it should show a suggestion for 'Don Quixote'.
+
+#### Requirements
+
+- [x] Use [Vue.js](https://vuejs.org/)
+- [x] Provide a `README` file and add information on how to build and/or run the project locally. This file can also include your thought process and any explanation.
+- [x] Push the application to a public github repo and provide us with a link.
+
+#### Implementation
+
+- [x] If you want to, feel free to use any boilerplate projects and `gulp`, `grunt`, `webpack` that bootstap the project for you, (but we recommend [vue create](https://cli.vuejs.org/guide/creating-a-project.html), as noted above).
+- [x] Add some styles, make it pretty.
