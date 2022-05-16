@@ -36,6 +36,10 @@ npm run test:unit
 npm run lint
 ```
 
+```sh
+stackblitz start command is added to start the tests in stackblitz
+```
+
 ## Thought process
 
 Rather than approaching this problem as an task to build an autocomplete for Strings and Objects, I'm approaching this as an extensible component which can support support any data source, with any data structure, and can do the filtering locally or remotely.

@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { mount } from "@vue/test-utils";
 import { expect } from "vitest";
 import AutoComplete from "../AutoComplete.vue";
